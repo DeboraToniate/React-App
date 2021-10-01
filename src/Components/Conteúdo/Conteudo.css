@@ -1,0 +1,123 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+div, header, main {
+    display: block;
+}
+
+.content--site {
+    position: relative;
+    margin: 0 auto;
+    padding: 0 16px;
+    width: 100%;
+}
+
+.post__title {
+    border-bottom: 1px solid #E5E5E5;
+    padding-bottom: 16px;
+    color: #262626; /*Alê*/
+    font-size: 40px; /*Alê*/
+    font-weight: 700; /*Alê*/
+    line-height: 46px; /*Alê*/
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+}
+
+:-webkit-any(article, aside, nav, section) h1 {
+    font-size: 3em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 1.5em;
+    margin-inline-end: 3em;
+}
+
+h1 {
+    display: block;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+/*Alê*/
+.post__excerpt {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+header p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 4em;
+    margin-inline-end: 4em;
+    font-size: 25px;
+}
+
+.higher__share {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #E6E6E6;
+    padding-top: 8px;
+}
+
+/*Ale*/
+.post__data {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #4D4D4D;
+    font-style: normal;
+}
+
+.post__content {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0 auto;
+    width: calc(100% - 132px);
+    color: #262626;
+}
+
+element.style {
+    margin: 0 auto;
+    max-width: 100%;
+    width: 640px;
+}
+
+/*EU*/
+.riddle-target-initialised {
+    margin: 0 auto;
+    max-width: 100%;
+    width: 640px;
+}
+
+.logo--cnn {
+    background-color: rgb(245, 245, 245);
+    padding: 15px 20px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    height: auto;
+    margin: 0;
+}
+
+.post__content p {
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: .01em;
+    color: #262626;
+    font-weight: 300;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}

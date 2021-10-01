@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+/*img .author__content{
+    float: left;
+    padding: 5px;
+    margin-left: 10px;
+    max-width: 876px;
+    height: 32px;
+}
+
+.author__image {
+    display: flex;
+    align-items: center;
+    height: 32px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    max-width: 876px;
+}
+
+figure {
+    margin: 0;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}*/
+
+/*Ale*/
+.custom-logo {
+    /*max-width: 130px;*/
+    /*max-height: 30px;*/
+    /*height: auto;*/
+    /*width: auto;*/
+    position: static;
+    display: block;
+    /*margin: 0 auto;*/
+    float: right;
+    margin: 0;
+    /*height: auto;
+    width: 130px;
+    max-width: 100%;
+    /*max-height: 87px;*/
+}
+
+img {
+    max-width: 10%;
+    max-height: 10%;
+    /*width: auto;*/
+    /*vertical-align: middle*/
+    /*display: inline-block;*/
+}
+
